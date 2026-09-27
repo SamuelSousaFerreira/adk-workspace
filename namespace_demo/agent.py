@@ -9,7 +9,7 @@ from google.adk.agents import LlmAgent
 
 # Criar agente que utilize todos os quatro namespaces
 root_agent = LlmAgent(
-    model='gemini-3.5-flash',
+    model='gemini-3-flash-preview',
     name='namespace_demo',
     instruction="""
         Você é um assistente de demonstração que exibe namespaces de estado.
