@@ -95,8 +95,7 @@ def process_refund(order_id: str, reason: str) -> dict:
         return {
                 "status": "error",
             "error_type": "cannot_refund",
-            "error_message": f"Cannot refund order in '{order['status']}' status.
-            Only delivered orders can be refunded."
+            "error_message": f"Cannot refund order in '{order['status']}' status.Only delivered orders can be refunded."
         }
 
 # Tool 3: Escalate to supervisor
